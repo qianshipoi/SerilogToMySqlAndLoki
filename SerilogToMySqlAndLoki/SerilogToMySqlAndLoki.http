@@ -1,0 +1,6 @@
+@SerilogToMySqlAndLoki_HostAddress = http://localhost:5133
+
+GET {{SerilogToMySqlAndLoki_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
